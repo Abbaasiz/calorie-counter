@@ -21,7 +21,7 @@
   }
   
   .container {
-    width: 90%;
+    width: 90%; 
     max-width: 680px;
   }
   
@@ -84,4 +84,11 @@
   
   .deficit {
     color: var(--light-green);
+  }
+
+  @media (max-width: 400px) {
+    .container {
+        width: 100%; 
+        background: cyan;
+    }
   }
